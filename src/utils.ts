@@ -84,7 +84,7 @@ export function contractNum(n: number) {
 	}
 }
 
-export const keys = ["qwertyuiop", "asdfghjkl", "zxcvbnm"];
+export const keys = ["ertyuıopğü", "asdfghjklşi", "zcvbnmöç"];
 
 export function newSeed(mode: GameMode) {
 	const today = new Date();
@@ -199,11 +199,14 @@ export function createLetterStates(): { [key: string]: LetterState; } {
 		a: "🔳",
 		b: "🔳",
 		c: "🔳",
+		ç: "🔳",
 		d: "🔳",
 		e: "🔳",
 		f: "🔳",
 		g: "🔳",
+		ğ: "🔳",
 		h: "🔳",
+		ı: "🔳",
 		i: "🔳",
 		j: "🔳",
 		k: "🔳",
@@ -211,15 +214,15 @@ export function createLetterStates(): { [key: string]: LetterState; } {
 		m: "🔳",
 		n: "🔳",
 		o: "🔳",
+		ö: "🔳",
 		p: "🔳",
-		q: "🔳",
 		r: "🔳",
 		s: "🔳",
+		ş: "🔳",
 		t: "🔳",
 		u: "🔳",
+		ü: "🔳",
 		v: "🔳",
-		w: "🔳",
-		x: "🔳",
 		y: "🔳",
 		z: "🔳",
 	};
